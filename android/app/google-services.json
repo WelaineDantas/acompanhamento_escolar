@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "554367589752",
+    "project_id": "acompanhamento-escolar-59373",
+    "storage_bucket": "acompanhamento-escolar-59373.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554367589752:android:1ed59ff0932cdf6e55bc8d",
+        "android_client_info": {
+          "package_name": "com.example.acompanhamento_escolar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554367589752-t45ofspghq3g036aj123247jhio00332.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8WUwhofnzk-CZtszklWOnbpGxZ_7udd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554367589752-t45ofspghq3g036aj123247jhio00332.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
