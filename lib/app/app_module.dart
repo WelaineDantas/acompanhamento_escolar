@@ -2,6 +2,7 @@ import 'package:acompanhamento_escolar/app/modules/pages/cadastro/cadastro_contr
 import 'package:acompanhamento_escolar/app/modules/pages/cadastro/cadastro_page.dart';
 import 'package:acompanhamento_escolar/app/modules/pages/direcao/direcao_controller.dart';
 import 'package:acompanhamento_escolar/app/modules/pages/direcao/direcao_page.dart';
+import 'package:acompanhamento_escolar/app/modules/pages/home/home_controller.dart';
 import 'package:acompanhamento_escolar/app/modules/pages/login/login_controller.dart';
 import 'package:acompanhamento_escolar/app/modules/pages/home/home_page.dart';
 import 'package:acompanhamento_escolar/app/modules/pages/login/login_page.dart';
@@ -25,6 +26,7 @@ class AppModule extends MainModule {
         Bind((i) => ProfessorController()),
         Bind((i) => DirecaoController()),
         Bind((i) => NotasController()),
+        Bind((i) => HomeController()),
       ];
 
   @override

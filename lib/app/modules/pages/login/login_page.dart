@@ -30,31 +30,31 @@ class _LoginPageState extends State<LoginPage> {
               "assets/icone_principal.png",
               height: 130,
             ),
-            GestureDetector(
-              onTap: () => null,
-              child: Container(
-                padding: EdgeInsets.symmetric(vertical: 5, horizontal: 40),
-                color: Color(0xff4285f4),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    TextCustomizado(
-                      text: "Entrar com o Google",
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                    Container(
-                      color: Colors.white,
-                      padding: EdgeInsets.all(5),
-                      child: Image.asset(
-                        "assets/google.png",
-                        height: 30,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
+            // GestureDetector(
+            //   onTap: () => null,
+            //   child: Container(
+            //     padding: EdgeInsets.symmetric(vertical: 5, horizontal: 40),
+            //     color: Color(0xff4285f4),
+            //     child: Row(
+            //       mainAxisAlignment: MainAxisAlignment.spaceAround,
+            //       children: [
+            //         TextCustomizado(
+            //           text: "Entrar com o Google",
+            //           color: Colors.white,
+            //           fontSize: 18,
+            //         ),
+            //         Container(
+            //           color: Colors.white,
+            //           padding: EdgeInsets.all(5),
+            //           child: Image.asset(
+            //             "assets/google.png",
+            //             height: 30,
+            //           ),
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // ),
             SizedBox(height: 20),
             TextCustomizado(
               text: "Ou entre com seu e-mail:",
